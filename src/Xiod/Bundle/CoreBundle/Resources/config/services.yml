@@ -1,0 +1,7 @@
+parameters:
+#    xiod_core.example.class: Xiod\Bundle\CoreBundle\Example
+
+services:
+#    xiod_core.example:
+#        class: %xiod_core.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

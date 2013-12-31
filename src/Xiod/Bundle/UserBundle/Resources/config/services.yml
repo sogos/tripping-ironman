@@ -1,0 +1,7 @@
+parameters:
+#    xiod_user.example.class: Xiod\Bundle\UserBundle\Example
+
+services:
+#    xiod_user.example:
+#        class: %xiod_user.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

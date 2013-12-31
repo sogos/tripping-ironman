@@ -1,0 +1,20 @@
+xiod_backend:
+    resource: "@XiodBackendBundle/Resources/config/routing.yml"
+    prefix:   /admin/
+
+xiod_user:
+    resource: "@XiodUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+xiod_admin_generator:
+    resource: "@XiodAdminGeneratorBundle/Resources/config/routing.yml"
+    prefix:   /generator/
+
+xiod_core:
+    resource: "@XiodCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+xiod_frontend:
+    resource: "@XiodFrontendBundle/Resources/config/routing.yml"
+    prefix:   /
+

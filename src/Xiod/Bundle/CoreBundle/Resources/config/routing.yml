@@ -1,0 +1,3 @@
+xiod_core_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: XiodCoreBundle:Default:index }
