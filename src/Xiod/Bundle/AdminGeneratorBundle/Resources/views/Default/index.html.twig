@@ -26,6 +26,24 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+ 
+          <a class="navbar-brand" href="#">AdminGenerator</a>
+        </div>
+        <div class="collapse navbar-collapse">
+		    	{{ knp_menu_render('generator.menu.main', {'template': 'XiodAdminGeneratorBundle:Menu:knp_menu.html.twig', 'currentClass': 'active'}) }}
+    </div>
+    </div>
+    </div>
+  
+    {#<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="navbar-brand" href="#">AdminGenerator</a>
         </div>
         <div class="collapse navbar-collapse">
@@ -37,7 +55,7 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-
+#}
     <div class="container subnav">
 	Hello
     </div>
