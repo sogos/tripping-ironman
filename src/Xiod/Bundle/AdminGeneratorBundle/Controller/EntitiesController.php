@@ -4,7 +4,7 @@ namespace Xiod\Bundle\AdminGeneratorBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class DefaultController extends Controller
+class EntitiesController extends Controller
 {
     public function indexAction()
     {

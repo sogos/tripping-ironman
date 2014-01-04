@@ -25,19 +25,31 @@ class MenuBuilder
 			array(
 				'route' => 'xiod_admin_generator_homepage',
 			)
-		);
+		)->setExtra('translation_domain', 'XiodAdminGeneratorBundle');
+		$menu->addChild('generator.routing', 
+			array(
+				'route' => 'xiod_admin_generator_manage_routing',
+			)
+		)->setExtra('translation_domain', 'XiodAdminGeneratorBundle');
+		$menu->addChild('generator.entities', 
+			array(
+				'route' => 'xiod_admin_generator_manage_entities',
+			)
+		)->setExtra('translation_domain', 'XiodAdminGeneratorBundle');
 		$menu->addChild('User',
 				array(
 					'attributes' => array(
 						'class' => 'pull-right'
 						)
 				     )
-			       )->setAttribute('dropdown', true);
+			       )
+		->setAttribute('dropdown', true)
+		->setExtra('translation_domain', 'XiodAdminGeneratorBundle');
 		$menu['User']->addChild('user.logout', 
 				array(
 					'route' => 'fos_user_security_logout',
 				     )
-				);
+				)->setExtra('translation_domain', 'XiodAdminGeneratorBundle');
 		return $menu;
 	}
 
